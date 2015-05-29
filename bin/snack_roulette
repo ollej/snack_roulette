@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler/setup'
+require 'snack_roulette'
+
+SnackRoulette::Wheel.new.spin!
