@@ -44,8 +44,8 @@ EOF
 
   def randomize
     {
-      shelf: @rnd.rand(SHELVES),
-      product: @rnd.rand(PRODUCTS)
+      shelf: @rnd.rand(1..SHELVES),
+      product: @rnd.rand(1..PRODUCTS)
     }
   end
 
